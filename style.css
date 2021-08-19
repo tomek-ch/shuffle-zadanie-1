@@ -24,10 +24,11 @@ body {
 
 .container {
   max-width: 1200px;
-  margin: 3em auto;
+  margin: auto;
   display: flex;
   gap: 2em;
   align-items: center;
+  padding: 2em;
 }
 
 .cards {
@@ -62,4 +63,36 @@ body {
 
 .icon {
   width: 1.5em;
+}
+
+@media (max-width: 1000px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .cta-section {
+    max-width: 30em;
+  }
+
+  .cards {
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .cards {
+    flex-direction: column;
+  }
+
+  .card:first-child {
+    margin: 0;
+  }
+
+  .card:nth-child(2) {
+    margin: 0;
+  }
+
+  .card:nth-child(3) {
+    margin: 0;
+  }
 }
