@@ -4,14 +4,29 @@
   box-sizing: border-box;
 }
 
+:root {
+  --background: #f0f1fa;
+  --foreground: #fff;
+
+  --body-text: #6371c3;
+  --heading-text: #1a237e;
+  --btn-text: #fff;
+
+  --highlight: #314efe;
+  --highlight-2: #efac0c;
+
+  --border-color: #e0dfe0;
+  --border-radius: 5px;
+}
+
 html {
   height: 100%;
 }
 
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #f0f1fa;
-  color: #6371c3;
+  background-color: var(--background);
+  color: var(--body-text);
   line-height: 1.5;
   height: 100%;
   display: flex;
@@ -19,7 +34,7 @@ body {
 }
 
 .heading {
-  color: #1a237e;
+  color: var(--heading-text);
 }
 
 .top-text {
@@ -55,9 +70,9 @@ body {
 .card {
   min-width: 40%;
   flex: 1;
-  background-color: #ffffff;
+  background-color: var(--foreground);
   padding: 2em;
-  border: 1px solid #e0dfe0;
+  border: 1px solid var(--border-color);
   border-radius: 5px;
 }
 
@@ -80,11 +95,11 @@ body {
 
 .cta-btn {
   text-transform: uppercase;
-  background-color: #efac0c;
-  color: #ffffff;
+  background-color: var(--highlight-2);
+  color: var(--btn-text);
   font-weight: 600;
   padding: 0.7em 1em;
-  border-radius: 5px;
+  border-radius: var(--border-radius);
   border: none;
 }
 
