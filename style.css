@@ -31,6 +31,10 @@ body {
   margin-right: 4em;
 }
 
+.cta-paragraph {
+  margin: 1em 0;
+}
+
 .container {
   max-width: 1200px;
   margin: auto;
