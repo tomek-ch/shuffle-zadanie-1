@@ -17,6 +17,18 @@
 
   --border-color: #e0dfe0;
   --border-radius: 5px;
+
+  --blue: #1e88e5;
+  --light-blue: #bbdefb;
+
+  --green: #43a048;
+  --light-green: #c7e6c8;
+
+  --orange: #f9a825;
+  --light-orange: #fff9c4;
+
+  --purple: #8d25aa;
+  --light-purple: #e1bee7;
 }
 
 html {
@@ -93,8 +105,30 @@ body {
   margin-bottom: 2em;
 }
 
+.card:first-child .icon {
+  color: var(--blue);
+  background-color: var(--light-blue);
+}
+
+.card:nth-child(2) .icon {
+  color: var(--green);
+  background-color: var(--light-green);
+}
+
+.card:nth-child(3) .icon {
+  color: var(--orange);
+  background-color: var(--light-orange);
+}
+
+.card:last-child .icon {
+  color: var(--purple);
+  background-color: var(--light-purple);
+}
+
 .icon {
-  width: 1.5em;
+  width: 2em;
+  padding: 0.5em;
+  border-radius: var(--border-radius);
 }
 
 .cta-btn {
