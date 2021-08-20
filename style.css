@@ -36,7 +36,7 @@ html {
 }
 
 body {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Noto Sans JP", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   background-color: var(--background);
   color: var(--body-text);
   line-height: 1.5;
@@ -50,6 +50,7 @@ body {
 .heading {
   color: var(--heading-text);
   line-height: 1.3;
+  font-weight: 500;
 }
 
 .cta-heading {
@@ -68,6 +69,7 @@ body {
 .top-text {
   text-transform: uppercase;
   font-size: 0.9em;
+  font-weight: 500;
 }
 
 .cta-paragraph {
