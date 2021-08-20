@@ -50,17 +50,17 @@ body {
 
 .heading {
   color: var(--heading-text);
-  line-height: 1.3;
   font-weight: 500;
 }
 
 .cta-heading {
-  font-size: 2.5em;
+  font-size: 2.7em;
 }
 
 .card-heading {
-  margin: 0.5em 0;
+  margin: 0.6em 0;
   font-size: 1.3em;
+  font-weight: 600;
 }
 
 .text-highlight {
@@ -74,7 +74,7 @@ body {
 }
 
 .cta-paragraph {
-  margin: 1em 0;
+  margin: 1.5em 0;
 }
 
 .container {
@@ -137,8 +137,8 @@ body {
 }
 
 .icon {
-  width: 2em;
-  padding: 0.5em;
+  width: 2.5em;
+  padding: 0.6em;
   border-radius: var(--border-radius);
 }
 
@@ -147,7 +147,7 @@ body {
   background-color: var(--highlight-2);
   color: var(--btn-text);
   font-weight: 600;
-  padding: 0.7em 1em;
+  padding: 0.8em 1.2em;
   border-radius: var(--border-radius);
   border: none;
   transition: all 150ms;
