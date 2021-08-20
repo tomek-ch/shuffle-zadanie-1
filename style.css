@@ -81,7 +81,7 @@ body {
   max-width: 1300px;
   margin: auto;
   display: flex;
-  gap: 3em;
+  gap: 4em;
   align-items: center;
   padding: 2em;
 }
