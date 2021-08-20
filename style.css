@@ -14,6 +14,7 @@
 
   --highlight: #314efe;
   --highlight-2: #efac0c;
+  --highlight-2-dark: #eba400;
 
   --border-color: #e0dfe0;
   --border-radius: 3px;
@@ -149,6 +150,15 @@ body {
   padding: 0.7em 1em;
   border-radius: var(--border-radius);
   border: none;
+  transition: all 150ms;
+}
+
+.cta-btn:hover {
+  background-color: var(--highlight-2-dark);
+}
+
+.cta-btn:active {
+  transform: scale(0.9);
 }
 
 @media (max-width: 1000px) {
