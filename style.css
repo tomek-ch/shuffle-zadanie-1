@@ -70,26 +70,22 @@ body {
   font-size: 0.9em;
 }
 
-.cta-section {
-  margin-right: 4em;
-}
-
 .cta-paragraph {
   margin: 1em 0;
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 1300px;
   margin: auto;
   display: flex;
-  gap: 2em;
+  gap: 3em;
   align-items: center;
   padding: 2em;
 }
 
 .cards {
   display: flex;
-  width: 60%;
+  width: 55%;
   flex-shrink: 0;
   flex-wrap: wrap;
   gap: 2em;
